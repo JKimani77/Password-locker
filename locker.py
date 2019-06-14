@@ -23,6 +23,18 @@ def all():
         handle.write(email)
         handle.write("")
 
+        handle.close()
+        print("Your Acoount has been created successfully\n Would you like to create new account credentials?(y/n)")
+        userresponse = input()
+        if userresponse == 'y':
+            generate_account()
+
+        else:
+            print("Be sure to come back if you would like to use the app again.")
+
+        elif answer == 'y':
+            login()  
+
 
 def generate_account():
     print()
