@@ -32,8 +32,8 @@ def all():
         else:
             print("Be sure to come back if you would like to use the app again.")
 
-        elif answer == 'y':
-            login()  
+    #    elif answer == 'y':
+            login()
 
 
 def generate_account():
@@ -45,7 +45,7 @@ class User:
     '''
     User_list = []
 
-    def __init__(self, username, password,);
+    def __init__(self, username, password,):
 
         self.username = username
         self.password = password
