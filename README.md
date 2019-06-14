@@ -17,7 +17,7 @@ There are no known bugs.
 ## Technologies and Languages Used
 Python
 ## Support and contact details
-You can reach me/contact me via email, [J. Kimani ](jkkimani77@gmail.com) 
+You can reach me/contact me via email, [J. Kimani ] jkkimani77@gmail.com 
 ### License
 This project is under the MIT License. All rights reserved.
 
