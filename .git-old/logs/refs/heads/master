@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 b1def4109e0d04b74af0c5e74984fc22c30daa40 JKimani77 <jkkimani77@gmail.com> 1560506998 +0300	commit (initial): Created new project files
+b1def4109e0d04b74af0c5e74984fc22c30daa40 84a56caf6644f10c03e9ef652280ae585994b376 JKimani77 <jkkimani77@gmail.com> 1560517371 +0300	commit: Defined function to generate account
+84a56caf6644f10c03e9ef652280ae585994b376 6790d94588b0b650f8a09221121e076687d52ab6 JKimani77 <jkkimani77@gmail.com> 1560518254 +0300	commit: added functionality to code
+6790d94588b0b650f8a09221121e076687d52ab6 9f5e4e1195326459ec8f4e0b9d92ca1f60883eac JKimani77 <jkkimani77@gmail.com> 1560518546 +0300	commit: resolved syntax and indentation errors in code
+9f5e4e1195326459ec8f4e0b9d92ca1f60883eac 02b248fe8d7ff3de9113b2068a6ca5e065eb247d JKimani77 <jkkimani77@gmail.com> 1560794717 +0300	commit: Removed text file for storing credentials
+02b248fe8d7ff3de9113b2068a6ca5e065eb247d 99bc2ec143f075c2273cc4a5385254d76807b875 JKimani77 <jkkimani77@gmail.com> 1560794875 +0300	commit: Created new credentials file
+99bc2ec143f075c2273cc4a5385254d76807b875 3212b3bc169b514453073c94345010d09d3fef6e JKimani77 <jkkimani77@gmail.com> 1560794956 +0300	commit: Created file for unit tests
+3212b3bc169b514453073c94345010d09d3fef6e 7c07bebceeaa7b2db54b6205aae75081c3908703 JKimani77 <jkkimani77@gmail.com> 1560795217 +0300	commit: Class credentials created
