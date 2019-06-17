@@ -47,3 +47,27 @@ class TestCredentials(unittest.TestCase):
         test_credentials.save_credentials()
         self.new_credentials.delete_credentials()  # to delete a credentials   object
         self.assertEqual(len(Credentials.credentials_list), 1)
+
+        def test_find_credentials_by_name(self):
+        '''
+        test to check if credentials by the account name and can display information
+        '''
+
+        self.new_credentials.save_credentials()
+        test_credentials = Credentials("Google", "3344")
+        test_credentials.save_credentials()
+        # found_credentials = Credentials.find_by_number("0711491808")
+        # self.assertEqual(found_credentials.credentials_name,
+        #                  test_credentials.password)
+
+    def test_display_all_credentials(self):
+        '''
+        Test to check if all contacts can be viewed
+        '''
+
+        self.assertEqual(Credentials.display_credentials(),
+                         Credentials.credentials_list)
+
+
+if __name__ == '__main__':
+    unittest.main()    
