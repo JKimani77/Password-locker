@@ -2,62 +2,64 @@ import random
 import pyperclip
 
 
-def all():
-    print("Hello, my name is Joshua.I'm here to help you create and save passwords.Do you have an account?(y/n)")
-    answer = input()
-    if answer == 'n':
-        print("Enter your Name")
-        username = input()
-        print("\n")
-        print("Enter A password")
-        password = input()
-        print("\n")
+class Credentials:
 
-
-        handle = open("credentials.txt","a")
-
-        handle.write(username)
-        handle.write("")
-        handle.write(password)
-        handle.write("")
-        handle.write(email)
-        handle.write("")
-
-        handle.close()
-        print("Your Acoount has been created successfully\n Would you like to create new account credentials?(y/n)")
-        userresponse = input()
-        if userresponse == 'y':
-            generate_account()
-
-        else:
-            print("Be sure to come back if you would like to use the app again.")
-
-    #    elif answer == 'y':
-            login()
-
-
-def generate_account():
-    print()
-
-class User:
     '''
-    Class that generates new instances of user_list
+    class that generates new instance credentials
     '''
-    User_list = []
 
-    def __init__(self, username, password,):
+    def __init__(self, account_name, account_password):
+        self.account_name = account_name
+        self.account_password = account_password
 
-        self.username = username
-        self.password = password
+    credentials_list = []
 
-
-
-    class credentials:
+    def save_credentials(self):
         '''
-        Class that generates new instances of credentials
+        method that saves credentials objects into credentials list
         '''
-        User_list = []
 
-    def __init__(self, account, password, ):
-        self.account = account
-        self.password = password
+        self.credentials_list.append(self)
+
+    def delete_credentials(self):
+        '''
+        method that deletes a credential
+        '''
+
+        Credentials.credentials_list.remove(self)
+
+    @classmethod
+    def find_by_name(cls, account_name):
+        '''
+        a method that takes in a name and returns a credential that matches that name
+        Args:
+            name: account_name that has a password
+        return:
+            the account that matches that name
+        '''
+
+        for credentials in cls.credentials_list:
+            if credentials.account_name == account_name:
+                return credentials
+
+    @classmethod
+    def credential_exists(cls, account_name):
+        '''
+        method to check if credential exists
+        Args:
+            name: account_name to be searched
+        boolean:
+                true or false
+        '''
+
+        for credentials in cls.credentials_list:
+            if credentials.account_name == account_name:
+                return True
+        return False
+
+    @classmethod
+    def display_credentials(cls):
+        '''
+        method to display all current details
+        '''
+        return cls.credentials_list
