@@ -61,4 +61,3 @@ class Credentials:
         method to display all current details
         '''
         return cls.credentials_list
-    
