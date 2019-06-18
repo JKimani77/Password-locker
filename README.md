@@ -1,15 +1,15 @@
 # Password Locker
 
 ### By **Joshua Kimani**,
-#### Published date **14/06/19**
+#### Published on  **14/06/19**
  ---
 ## Description
 
-An application that allows users to generate and store passwords named credentials.
+An application that allows users to generate and store password named credentials.
 
 ## Documentation
 
-The project works responsively and had no errors during testing, stores data and displays it with the help of short codes.
+The project works responsively and had no errors during testing, stores data and displays the data.
 
 ---
 
@@ -19,16 +19,16 @@ The project works responsively and had no errors during testing, stores data and
 
 ## Setup/Installation Requirements
 
-* open my [GitHub](https://github.com/JKimani77/Password-locker)
-* find my repo *Password-locker*
-* clone the repository
-* open terminal from within the folder
-* run the **python3.6-run.py** command in terminal
+* Open my [GitHub](https://github.com/JKimani77/Password-locker)
+* Find my repo *Password-Locker*
+* Clone the repository
+* Open terminal from within the folder
+* Run the **python3.6 run.py** command in terminal
 
 ---
 
 #### technologies used
-* python ( **version 3.6** )
+* Python ( **version 3.6** )
 
 ---
 
